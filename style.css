@@ -145,6 +145,24 @@ main{
         margin-block: 81px;
     }
 
+    .tema{
+        gap: 16px;
+    }
+
+    .tema img{
+        width: 24px;
+    }
+    
+    .tema button{
+        height: 28px;
+        width: 48px;
+    }
+
+    .tema button div{
+        width: 20px;
+        height: 20px;
+    }
+
     main{
         display: flex;
         max-width: 1160px;
@@ -180,6 +198,8 @@ main{
         height: 56px;
         padding: 8px;
     }
+
+
 
 }
 
