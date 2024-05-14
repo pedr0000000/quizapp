@@ -13,6 +13,8 @@
     --secondary-text-color: #626c7f;
     --button-bg: #fff;
     --shadow: 0px 16px 40px 0px rgba(143, 168, 193, 0.14);
+    --green: #26d782;
+    --red: #ee5454;
     --bg-html: #fff1e9;
     --bg-css: #e0fdef;
     --bg-js: #ebf0ff;
@@ -150,8 +152,13 @@ main{
     color: var(--primary-text-color);
 }
 
-.alternativas laber:has(input:checked){
-    
+.alternativas label:has(input:checked){
+    outline: 3px solid var(--purple);
+
+    & span{
+        background: var(--purple);
+        color: var(--white);
+    }
 }
 
 .alternativas input{
