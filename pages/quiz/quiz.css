@@ -55,7 +55,7 @@ header{
     gap: 16px;
 }
 
-.assuntos_icone{
+.assunto_icone{
     background: var(--bg-acessiblidade);
     width: 40px;
     height: 40px;
@@ -63,7 +63,7 @@ header{
     border-radius: 5px;
 }
 
-.assuntos_icone img{
+.assunto_icone img{
     width: 100%;
 }
 
