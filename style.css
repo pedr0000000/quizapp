@@ -64,6 +64,10 @@ header{
     border: 0;
     border-radius: 999px;
     padding: 4px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+
 }
 
 .tema button div{
