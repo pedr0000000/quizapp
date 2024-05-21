@@ -20,7 +20,7 @@
     --red: #ee5454;
     --bg-html: #fff1e9;
     --bg-css: #e0fdef;
-    --bg-js: #ebf0ff;
+    --bg-javascript: #ebf0ff;
     --bg-acessiblidade: #f6e7ff;
     --bg-mobile: url(../../assets/images/pattern-background-mobile-light.svg);
     --bg-desktop: url(../../assets/images/pattern-background-desktop-light.svg);
@@ -56,11 +56,26 @@ header{
 }
 
 .assunto_icone{
-    background: var(--bg-acessiblidade);
     width: 40px;
     height: 40px;
     padding: 5px;
     border-radius: 5px;
+}
+
+.assunto_icone.html{
+    background: var(--bg-html);
+}
+
+.assunto_icone.css{
+    background: var(--bg-css);
+}
+
+.assunto_icone.javascript{
+    background: var(--bg-javascript);
+}
+
+.assunto_icone.acessibilidade{
+    background: var(--bg-acessiblidade);
 }
 
 .assuntos_icone img{
