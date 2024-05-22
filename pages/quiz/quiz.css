@@ -219,6 +219,7 @@ main{
     display: flex;
     align-items: center;
     gap: 16px;
+    color: var(--white);
 }
 
 .alternativas div span {
