@@ -8,7 +8,7 @@ botaoTema.addEventListener("click", () => {
     trocarTema (body, botaoTema)
 })
 
-botaoJogarNovamente.addeventeListener("click")
+botaoJogarNovamente.addEventListener("click", JogarNovamente)
 
 verificarTema (body, botaoTema)
 
@@ -39,7 +39,11 @@ function inserirResultado() {
     `
 }
 
-function jogarNovamente() {
+function JogarNovamente() {
+
+    localStorage.removeItem ("pontos")
+    localStorage.removeItem("assunto")
+    
     window.location.href = "../../index.html"
 }
 
